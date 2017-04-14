@@ -67,6 +67,11 @@ colors.addEventListener('click',function (event) {
   userChoice.style.color =  event.target.id;
 });
 
+// function colorChange(random){
+//
+// }
+//
+//
 // function getRandomColor() {
 //     var letters = '0123456789ABCDEF';
 //     var color = '#';
@@ -75,5 +80,3 @@ colors.addEventListener('click',function (event) {
 //     }
 //     return color;
 // }
-//
-// randomColor = random.style

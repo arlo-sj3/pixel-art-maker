@@ -33,6 +33,7 @@ h1 {
   margin-left: 5%;
   margin-right: 5%;
   font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 section {
@@ -44,6 +45,7 @@ section {
   border-color: black;
   background-color: black;
   display: inline-block;
+
 
 }
 
@@ -140,5 +142,12 @@ section {
 	border-right: 100px solid red;
 	border-bottom: 50px solid transparent;*/
   margin-right: 23%;
-  margin-top: 23%
+  margin-top: 23%;
+  border-style: dashed;
+  border-color: white;
+
+}
+
+html{
+  background-color: black;
 }
