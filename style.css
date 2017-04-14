@@ -16,7 +16,7 @@ tr {
   /*table-layout: fixed;*/
   margin-left: 10px;
   margin-bottom: 5%;
-  margin-top: -3%;
+  /*margin-top: -3%;*/
 }
 
  /*div {
@@ -134,11 +134,11 @@ section {
 }
 
 #userChoice{
-  width: 0;
-	height: 0;
-	border-top: 50px solid transparent;
+  width: 10%;
+	height: 10%;
+	/*border-top: 50px solid transparent;
 	border-right: 100px solid red;
-	border-bottom: 50px solid transparent;
+	border-bottom: 50px solid transparent;*/
   margin-right: 23%;
   margin-top: 23%
 }

@@ -35,7 +35,7 @@ createTd1(3903)
 document.getElementsByTagName('tr')[0].addEventListener('click', function(event) {
     console.log(event.target)
     if (event.target.nodeName === 'TD') {
-        event.target.style.backgroundColor = currentColor;
+        event.target.style.backgroundColor = userChoice.style.color;
     }
 
 });
@@ -55,5 +55,5 @@ document.getElementsByTagName('tr')[0].addEventListener('click', function(event)
 
 
 colors.addEventListener('click',function (event) {
-  userChoice.style.borderRight = '100px solid ' + event.target.id;
+  userChoice.style.color =  event.target.id;
 });
