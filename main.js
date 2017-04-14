@@ -40,6 +40,10 @@ document.getElementsByTagName('tr')[0].addEventListener('click', function(event)
 
 });
 
+//??maybe palatte chooser?? document.getElementsByTagName('section').addEventListener('click', function(event){
+//   evnt.target.style.backgroundColor = userChoice.style.color;
+// })
+
 //////squares experiment --> attach to td vs tr
 // var squares = document.getElementsByTagName('td');
 // console.log(squares);
@@ -55,5 +59,21 @@ document.getElementsByTagName('tr')[0].addEventListener('click', function(event)
 
 
 colors.addEventListener('click',function (event) {
+  userChoice.style.backgroundColor =  event.target.id;
+});
+
+
+colors.addEventListener('click',function (event) {
   userChoice.style.color =  event.target.id;
 });
+
+// function getRandomColor() {
+//     var letters = '0123456789ABCDEF';
+//     var color = '#';
+//     for (var i = 0; i < 6; i++ ) {
+//         color += letters[Math.floor(Math.random() * 16)];
+//     }
+//     return color;
+// }
+//
+// randomColor = random.style
